@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "some-banklet": [
+        "dist/some-banklet"
+      ],
+      "some-banklet/*": [
+        "dist/some-banklet/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
